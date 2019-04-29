@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald|Alegreya+Sans");
+
+:root {
+	--primary-color: pink;
+	--secondary-color: black;
+	--border: 2px solid var(--secondary-color);
+}
+.atmosphere {
+	position: absolute;
+	left: 34%;
+	width: 30%;
+	top: 10%;
+	background-color: transparent;
+	transition: all .4s;
+}
+.lightbox-content {
+	background-color: var(--primary-color);
+	padding: 3%;
+	margin: 30px;
+	text-align: center;
+	border: var(--border);
+	box-shadow: -4px 4px 8px grey;
+
+}
+.lightbox-heading {
+	font-family: Oswald;
+	padding: 0px;
+	margin: 0px;
+	font-size: 60px;
+	line-height: 1.5;
+}
+.lightbox-byline {
+	font-family: 'Alegreya Sans';
+	padding: 0px;
+	margin: 0px;
+	margin-top: 20px;
+	font-size: 20px;
+	line-height: 1.8;
+}
+.lightbox-button {
+	font-family: 'Alegreya Sans';
+	font-size: 16px;
+	padding: 10px 40px;
+	margin-top: 20px;
+	background-color: transparent;
+	border: var(--border);
+}
+.lightbox-button:hover {
+	cursor: hand;
+	cursor: pointer;
+	background-color: rgba(0,0,0,.05);
+}
+.hidden {
+	display: none;
+}
